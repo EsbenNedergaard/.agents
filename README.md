@@ -2,6 +2,11 @@
 
 My agent skills that I use every day to do real engineering - not vibe coding.
 
+## Global Config 
+The repository contains a `copilot-instrctions.md` which will affect the way copilot always responds or acts so that it keeps stuff concise. 
+
+If you use something else like claude-code you need to refactor this to a `claude.md` file.
+
 ## Skills
 
 ### Skills used for implementing a task
@@ -41,13 +46,10 @@ General workflow tools, not code-specific.
 ## Installation
 
 1. Copy the `/skills` & `/instructions` folders into your `%USER_PROFILE%/.agent` or `%USER_PROFILE%/.github` folder. 
-2. Copy the `copilot-instrctions.md` into your global location for your IDE. This means they sho
-
+2. Copy the `copilot-instrctions.md` into your global location for your IDE.
 
 ## Sources:
 https://github.com/mattpocock/skills/tree/main
-
-
 https://github.com/github/awesome-copilot/blob/main/skills/java-springboot/SKILL.md
 
 
